@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shundo Hunter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>✨ Shundo Hunter</h1>
+        <p>Find 100% IV shiny candidates</p>
+
+        <div class="card">
+            <h2>Trainer Code</h2>
+
+            <input
+                id="trainerCode"
+                type="text"
+                placeholder="1234 5678 9012"
+            >
+
+            <button onclick="startHunter()">
+                🔎 Start Shiny Check
+            </button>
+
+            <p id="status"></p>
+        </div>
+
+        <div id="results"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

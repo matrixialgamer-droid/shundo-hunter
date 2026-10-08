@@ -1,5 +1,5 @@
-const SUPABASE_URL = "PASTE_YOUR_PROJECT_URL_HERE";
-const SUPABASE_KEY = "PASTE_YOUR_PUBLISHABLE_KEY_HERE";
+const SUPABASE_URL = "https://tlxdtcgjecnkgwgdqiiu.supabase.co/rest/v1/";
+const SUPABASE_KEY = "sb_publishable_P089PMI6Gd8TsSgtSGN-LA_FgI7-e6k";
 
 async function startHunter() {
     const code = document.getElementById("trainerCode").value.trim();

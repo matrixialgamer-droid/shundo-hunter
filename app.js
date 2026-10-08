@@ -63,8 +63,7 @@ async function startHunter() {
     const spawns = await response.json();
 
     // Apply simulated trainer-specific prediction
-    const predictions = spawns.filter(spawn =>
-        predictsShiny(code, spawn)
+    const predictions = spawns;
     );
 
     status.textContent = "✅ Prediction check complete.";

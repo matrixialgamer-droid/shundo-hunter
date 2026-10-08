@@ -1,4 +1,4 @@
-const SUPABASE_URL = "https://tlxdtcgjecnkgwgdqiiu.supabase.co/rest/v1/";
+const SUPABASE_URL = "https://tlxdtcgjecnkgwgdqiiu.supabase.co";
 const SUPABASE_KEY = "sb_publishable_P089PMI6Gd8TsSgtSGN-LA_FgI7-e6k";
 
 async function startHunter() {
